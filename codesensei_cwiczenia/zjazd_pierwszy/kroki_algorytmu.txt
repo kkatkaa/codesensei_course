@@ -1,0 +1,31 @@
+Wchodzenie przez drzwi
+-odwiedziny w domu znajomych
+-drzwi
+-klamka
+-pomieszczenie
+-gospodarz
+
+Kroki algorytmu
+
+
+1.Zapukać.
+2.Zadzwonić dzwonkiem.
+3.Poczekać, aż gospodarz otworzy drzwi.
+4.Przywitać się z gospodarzem.
+5.Wejść do środka.
+
+
+Gotowanie wody w czajniku
+-zaparzenie herbaty
+-czajnika
+-Woda
+-kubek
+-kuchenka
+
+Kroki algorytmu
+
+1. Nalanie wody do czajnika.
+2. Włączenie kuchenki.
+3. Postawienie czajnik na ogniu.
+4. Poczekanie, aż czajnik „zagwiżdże”.
+5. Woda jest gotowa do zaparzenia herbaty.
