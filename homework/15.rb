@@ -9,7 +9,7 @@ if n < 1
 elsif
 
   while i <= n
-    puts "#{i} - #{i}"
+    puts i , i * -1
     i += 1
   end
 
