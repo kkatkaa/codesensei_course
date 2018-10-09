@@ -3,12 +3,15 @@
 puts "Podaj liczbę:"
 n = gets.to_i
 
+i = 2
+
 if n < 2
   puts "Liczba musi być większa od 1."
 elsif
-  i = 2
+
     while  i <= n
       puts i
       i += 2
     end
+    
 end
