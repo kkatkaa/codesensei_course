@@ -5,10 +5,15 @@ x = gets.to_i
 puts "Podaj drugą liczbę:"
 y = gets.to_i
 
-if x+y > x-y
+suma = x + y
+roznica = x - y
+
+if  suma > roznica
+#x+y > x-y
   puts "Suma większa od różnicy."
-elsif x+y < x-y
+elsif suma < roznica
+  #x+y < x-y
   puts "Suma mniejsza od różnicy."
 else
   puts " Obie są równe."
-end 
+end
