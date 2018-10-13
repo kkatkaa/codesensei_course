@@ -3,28 +3,10 @@
 puts "Podaj numer miesiąca:"
 month = gets.to_i
 
-if month == 1
+if month == 1 || month == 3 ||  month == 5 ||  month == 7 ||  month == 8 ||  month == 10 ||  month == 12
   puts "Miesiąc #{month} ma 31 dni."
-elsif month == 3
-  puts "Miesiąc #{month} ma 31 dni."
-elsif month == 5
-  puts "Miesiąc #{month} ma 31 dni."
-elsif month == 7
-  puts "Miesiąc #{month} ma 31 dni."
-elsif month == 8
-  puts "Miesiąc #{month} ma 31 dni."
-elsif month == 10
-  puts "Miesiąc #{month} ma 31 dni."
-elsif month == 12
-  puts "Miesiąc #{month} ma 31 dni."
-elsif month == 4
-  puts "Miesiąc #{month} ma 30 dni."
-elsif month == 6
-  puts "Miesiąc #{month} ma 30 dni."
-elsif month == 9
-  puts "Miesiąc #{month} ma 30 dni."
-elsif month == 11
-  puts "Miesiąc #{month} ma 30 dni."
+elsif month == 4 ||  month == 6 ||  month == 9 ||  month == 11
+    puts "Miesiąc #{month} ma 30 dni."
 elsif month == 2
   puts "Miesiąc #{month} to luty i jest wyjątkowy, ponieważ ma 28 dni."
 else
