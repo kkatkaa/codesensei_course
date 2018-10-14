@@ -8,10 +8,8 @@ i = 2
 if n < 2
   puts "Liczba musi być większa od 1."
 elsif
-
-    while  i <= n
-      puts i
-      i += 2
-    end
-    
+  while  i <= n
+    puts i
+    i += 2
+  end    
 end

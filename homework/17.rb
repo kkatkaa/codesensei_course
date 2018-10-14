@@ -3,10 +3,12 @@
 puts "Zgadnij liczbę:"
 n = gets.to_i
 
-  i = 0
-  until  n == 0
-    i = i + n
-    puts "Zgadnij jeszcze raz:"
-    n = gets.to_i
-  end
+i = 0
+
+until  n == 0
+  i = i + n
+  puts "Zgadnij jeszcze raz:"
+  n = gets.to_i
+end
+
 puts i

@@ -7,10 +7,8 @@ i = 1
 if n < 1
   puts "Liczba musi być większa od 0."
 elsif
-
   while i <= n
     puts i , i * -1
     i += 1
   end
-
 end

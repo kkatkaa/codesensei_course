@@ -3,15 +3,14 @@
 puts "Podaj liczbę:"
 n = gets.to_i
 
-  i = 0
-  potega = 0
-  suma = 0
+i = 0
+potega = 0
+suma = 0
 
-  while
-    i < n
-    i += 1
-    puts potega = i ** 2
-    suma = suma + potega
-  end
+while i < n
+  i += 1
+  puts potega = i ** 2
+  suma = suma + potega
+end
 
 puts "Suma kwadratów to: #{suma}."

@@ -12,7 +12,7 @@ if  suma > roznica
 #x+y > x-y
   puts "Suma większa od różnicy."
 elsif suma < roznica
-  #x+y < x-y
+#x+y < x-y
   puts "Suma mniejsza od różnicy."
 else
   puts " Obie są równe."
