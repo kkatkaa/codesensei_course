@@ -3,23 +3,23 @@
 puts "Zgadnij liczbę:"
 n = gets.to_i
 
-dodatnia = 0
-ujemna = 0
+suma_liczb_dodatnich = 0
+suma_liczb_ujemnych = 0
 
 until  n == 0
   if n > 0
-    dodatnia = dodatnia + n
+    suma_liczb_dodatnich = suma_liczb_dodatnich + n
   else
-    ujemna = ujemna + n
+    suma_liczb_ujemnych = suma_liczb_ujemnych + n
   end
   puts "Zgadnij jeszcze raz:"
   n = gets.to_i
 end
 
-if dodatnia > 0
-  puts "Suma liczb dodatnich to: #{dodatnia}."
+if suma_liczb_dodatnich > 0
+  puts "Suma liczb dodatnich to: #{suma_liczb_dodatnich}."
 end
 
-if ujemna < 0
-  puts "Suma liczb ujemnych to #{ujemna}."
-end 
+if suma_liczb_ujemnych < 0
+  puts "Suma liczb ujemnych to #{suma_liczb_ujemnych}."
+end

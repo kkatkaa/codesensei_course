@@ -13,4 +13,6 @@ loop do
   break if n < 10
 end
 
-puts "Suma cyfr podanej liczby to #{suma = suma + n}."
+suma_cyfr = suma + n
+
+puts "Suma cyfr podanej liczby to #{suma_cyfr}."
