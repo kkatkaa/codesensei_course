@@ -5,16 +5,16 @@ number = rand(100)
 
 puts "Podaj cyfrę od 0 do 99:"
 loop do
-  
+
 i = gets.to_i
 
   if i == number
     puts "Zgadłeś, gratulacje!"
     break
   elsif number > i
-    puts  "Mniej"
+    puts  "Więcej"
   else
-    puts "Więcej"
+    puts "Mniej"
   end
 
 end
