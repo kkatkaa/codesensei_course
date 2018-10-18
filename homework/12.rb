@@ -3,10 +3,7 @@
 puts "Podaj liczbę:"
 number = gets.to_i
 
-a = number
-b = 2
-
-if a % b == 0
+if number % 2 == 0
   puts "Liczba jest parzysta."
 else
   puts "Liczba jest nieparzysta."
