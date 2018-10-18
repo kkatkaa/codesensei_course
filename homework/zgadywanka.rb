@@ -5,18 +5,29 @@
 # # oraz “ok”, gdy uda mu się trafić1.
 
 puts "Zgadnij jaka to liczba w zakresie od 0 do 99:"
-i = gets.to_i
+my_number = gets.to_i
 
-number = 0
+while my_number > 99
+    puts "Zły zakres! Podaj liczbę w zakresie od 0 do 99."
+    my_number = gets.to_i
+end
 
-until i == number
-  number = rand(100)
-  puts number
-  if number > i
+computer_number = rand(100)
+puts computer_number
+
+until my_number == computer_number
+  if computer_number > my_number
     answer = gets.chomp
-  elsif number < i
+    # puts "less than #{computer_number}"
+    computer_number = rand(my_number..computer_number)
+    puts computer_number
+  elsif computer_number < my_number
     answer = gets.chomp
+    # puts "more than #{computer_number}"
+    computer_number = rand(computer_number..my_number)
+    puts computer_number
   end
 end
 
+# puts "OK"
 puts answer = gets.chomp
