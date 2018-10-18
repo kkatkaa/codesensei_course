@@ -3,12 +3,12 @@
 puts "Zgadnij liczbę:"
 n = gets.to_i
 
-i = 0
+sum = 0
 
 until  n == 0
-  i = i + n
+  sum = sum + n
   puts "Zgadnij jeszcze raz:"
   n = gets.to_i
 end
 
-puts i
+puts "Suma podanych liczb wynosi: #{sum}."

@@ -10,7 +10,7 @@ b = gets.to_i
 while a != b
   if a < b
   puts b = b - a
-else
+  else
   puts a = a - b
   end
 end
