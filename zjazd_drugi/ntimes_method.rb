@@ -8,6 +8,4 @@ def ntimes(n)
   end
 end
 
-ntimes(2) do
-  puts "Hi"
-end
+ntimes(2) {puts "Hi"}
