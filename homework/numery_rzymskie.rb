@@ -8,17 +8,19 @@ DIGITS_TO_ROMAN_SYMBOLS = { 1 => "I", 2 => "II", 3 => "III", 4 => "IV", 5 => "V"
 def to_roman(number)
   units = number % 10
   tens = (number%100) - units
-  hundreds = (number/100) * 100
+  thousends = (number/1000) * 1000
+  hundreds = ((number/100) * 100) - thousends
 
   result = ""
+  result += DIGITS_TO_ROMAN_SYMBOLS[thousends] if thousends > 999
   result += DIGITS_TO_ROMAN_SYMBOLS[hundreds] if hundreds > 99
   result += DIGITS_TO_ROMAN_SYMBOLS[tens] if tens > 9
   result += DIGITS_TO_ROMAN_SYMBOLS[units] if units > 0
-
   result
 end
 
 puts to_roman(19)
+puts to_roman(2334)
 puts to_roman(5) #=> 'V'
 puts to_roman(37) #=> 'XXXVII'
 puts to_roman(924) #=> 'CMXXIV'
