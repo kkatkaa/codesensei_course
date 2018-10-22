@@ -4,9 +4,7 @@
 # przypisać do akumulatora, a na końcu zwrócić.
 
 def foldr(acc, array)
-  array.reverse.each do |elem|
-  acc = elem - acc
-  end
+  array.reverse.each { |elem| acc = elem - acc }
   puts acc
 end
 
