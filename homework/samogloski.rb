@@ -2,7 +2,7 @@
 # uznajemy: a, e, i, o, u oraz y.
 
 def vowel_count(string)
-   string.count("aeoui")
+   string.count("aeiouy")
 end
 
 puts vowel_count("test")
