@@ -17,7 +17,7 @@ operation = gets.chomp
     number1 = gets.to_i
     puts "Enter second number:"
     number2 = gets.to_i
-    
+
       if operation == "1"
         result = number1 + number2
         puts "Your result is: #{result}."
@@ -31,7 +31,7 @@ operation = gets.chomp
       elsif
         operation == "4"
           while number2 == 0
-            puts "Nie można dzielić przez zero, podaj inną liczbę:"
+            puts "You can't divided by zero, enter another number:"
             number2 = gets.to_i
           end
         result = number1 / number2
