@@ -5,8 +5,8 @@
 
 def foldr(acc, array)
   array.reverse.each { |elem| acc = elem - acc }
-  puts acc
+  acc
 end
 
-foldr(0, [3, 4, 65, 9])
-foldr(7, [5, 8, 54, 7])
+puts foldr(0, [3, 4, 65, 9])
+puts foldr(7, [5, 8, 54, 7])
