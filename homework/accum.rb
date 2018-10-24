@@ -7,9 +7,9 @@ def accum(string)
   new_string = element * (index+1)
   new_array << new_string.capitalize
   end
-  puts new_array.join("-")
+  new_array.join("-")
 end
 
-accum("abcd")#=> "A-Bb-Ccc-Dddd"
-accum("RqaEzty")#=> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
-accum("cwAt")#=> "C-Ww-Aaa-Tttt"
+puts accum("abcd")#=> "A-Bb-Ccc-Dddd"
+puts accum("RqaEzty")#=> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+puts accum("cwAt")#=> "C-Ww-Aaa-Tttt"
