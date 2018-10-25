@@ -3,7 +3,7 @@
 # przyjętych tablic.
 
 def avg_array(*arguments)
-  avg_array = [*arguments].transpose.map{|a| a.sum.to_f / arguments.count }
+  avg_array = [*arguments].transpose.map{|a| a.sum / a.count.to_f}
 end
 
 puts avg_array([1, 3, 5], [3, 5, 7]) #=> [2, 4, 6]
