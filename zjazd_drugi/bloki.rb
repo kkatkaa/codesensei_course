@@ -4,4 +4,5 @@
 
 randomness = Array.new(100) { rand(100) }
 wynik = randomness.group_by { |i| i%10 }
-puts wynik
+dlugosc = wynik.transform_values { |i| i.length}
+puts dlugosc 
