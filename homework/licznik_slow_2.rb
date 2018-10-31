@@ -4,10 +4,8 @@
 
 def word_count(words)
   word_list = Hash.new(0)
-  words_array = words.split
-  words_array.each do |word| word.downcase
-    word_list[word] += 1
-  end
+  words_array = words.downcase.split
+  words_array.each { |word| word_list[word] += 1}
   word_list
 end
 
