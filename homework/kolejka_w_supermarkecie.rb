@@ -19,4 +19,4 @@ puts queue_time([5,3,4], 1)#=> 12
 puts queue_time([10, 2, 3, 3], 2) #=> 10
 puts queue_time([2, 3, 10], 2) #=> 12
 puts queue_time([5, 10, 2, 5, 2], 3) #=> 10
-puts queue_time([2, 10, 2, 5, 2, 10], 3) #=> 14 
+puts queue_time([2, 10, 2, 5, 2, 10], 3) #=> 14
